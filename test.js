@@ -1,0 +1,20 @@
+var isPOT = require('./')
+var test = require('tape')
+
+test('whether a number is power of two', function(t) {
+  t.equal(isPOT(0), false)
+  t.equal(isPOT(1), true)
+  t.equal(isPOT(2), true)
+  t.equal(isPOT(3), false)
+  t.equal(isPOT(4), true)
+  t.equal(isPOT(5), false)
+  t.equal(isPOT(8), true)
+  t.equal(isPOT(10), false)
+  t.equal(isPOT(16), true)
+  t.equal(isPOT(32), true)
+
+  t.equal(isPOT(-16), false)
+  t.equal(isPOT(-8), false)
+  t.equal(isPOT(-5), false)
+  t.end()
+})

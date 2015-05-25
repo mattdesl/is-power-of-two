@@ -1,0 +1,37 @@
+{
+  "name": "is-power-of-two",
+  "version": "1.0.0",
+  "description": "whether a number is power of two",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Matt DesLauriers",
+    "email": "dave.des@gmail.com",
+    "url": "https://github.com/mattdesl"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "^4.0.0"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "power",
+    "of",
+    "two",
+    "is",
+    "number",
+    "pot",
+    "powers",
+    "2"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mattdesl/is-power-of-two.git"
+  },
+  "homepage": "https://github.com/mattdesl/is-power-of-two",
+  "bugs": {
+    "url": "https://github.com/mattdesl/is-power-of-two/issues"
+  }
+}
