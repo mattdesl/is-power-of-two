@@ -16,5 +16,12 @@ test('whether a number is power of two', function(t) {
   t.equal(isPOT(-16), false)
   t.equal(isPOT(-8), false)
   t.equal(isPOT(-5), false)
+
+  t.equal(isPOT("1"), false)
+  t.equal(isPOT(0.5), true)
+  t.equal(isPOT(Number.MIN_VALUE), true)
+  t.equal(isPOT(-2147483648), false)
+  t.equal(isPOT(4294967297), false)
+  t.equal(isPOT(32.04), false)
   t.end()
 })
